@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient( 122.3deg,  rgba(111,71,133,1) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,1) 84.8% );
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5em;
+}
+
+strong {
+  border-bottom: 10px solid currentColor;
+  font-weight: 400;
+}
+
+.container {
+  width: 60vW;
+  margin: 0 auto;
+}
+
+.adapted_width {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.card li {
+  list-style: none;
+  display: inline-block;
+}
+
+.card p {
+  margin-bottom: 50px;
+}
+
+.card i {
+  font-size: 2em;
+  color: rgba(111,71,133,1);
+  padding: 0 20px;
+}
+
+.btn {
+  border: 10px solid rgba(111,71,133,1);
+  padding: 10px 30px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: rgba(111,71,133,1);
+  font-weight: 700;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.btn:hover {
+  background-color: rgba(111,71,133,1);
+  padding: 12px 32px;
+  margin: 0 auto;
+  color: white;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 100px 0;
+}
+
+/* ––––––––––––– RESPONSIVE –––––––––––––*/
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  h1 {
+  font-size: 1.5em;
+  color: blue;
+  }
+}
